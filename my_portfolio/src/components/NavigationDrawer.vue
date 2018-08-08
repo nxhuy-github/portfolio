@@ -1,5 +1,10 @@
 <template>
   <v-layout row wrap>
+    <v-flex  xs12 sm6 offset-sm3>
+      <v-avatar size="190px">
+        <img src="../assets/my_face_manga.jpg" alt="avatar">
+      </v-avatar>
+    </v-flex>
     <v-navigation-drawer id="navigation" :clipped="clipped" v-model="drawer" enable-resize-watcher app dark class="purple lighten-1">
       <v-list>
         <v-list-tile v-for="item in items" :key="item.title" @click="navigateTo({name: item.route})">
@@ -32,7 +37,7 @@ export default {
         { title: `Home`, icon: 'home', route: 'LandingPage' },
         { title: `Projects`, icon: 'work', route: 'Projects' },
         { title: 'Resume', icon: 'file_copy', route: 'Resume' },
-        { title: 'About', icon: 'face', route: 'About' },
+        // { title: 'About', icon: 'face', route: 'About' },
         { title: 'Contact', icon: 'contact_support', route: 'Contact' }
       ],
       clipped: false

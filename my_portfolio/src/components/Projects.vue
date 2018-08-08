@@ -20,9 +20,7 @@
               <projects-javascript />
             </div>
             <div v-else>
-              <v-card color="cyan darken-2" class="white--text" flat>
-                <v-card-text>{{ text }}</v-card-text>
-              </v-card>
+              <projects-python />
             </div>
           </v-tab-item>
         </v-tabs>
@@ -32,6 +30,7 @@
 
 <script>
 import ProjectsJavascript from './ProjectsJavascript'
+import ProjectsPython from './ProjectsPython'
 
 export default {
   data () {
@@ -40,7 +39,8 @@ export default {
     }
   },
   components: {
-    ProjectsJavascript
+    ProjectsJavascript,
+    ProjectsPython
   }
 }
 </script>

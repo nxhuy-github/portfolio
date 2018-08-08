@@ -1,11 +1,6 @@
 <template>
   <v-layout row wrap>
     <v-flex  xs12 sm6 offset-sm3>
-      <v-avatar size="190px">
-        <img src="../assets/my_face_manga.jpg" alt="avatar">
-      </v-avatar>
-    </v-flex>
-    <v-flex  xs12 sm6 offset-sm3>
       <v-card color="cyan darken-2" class="white--text" flat>
         <v-card-text id="banner" >
           <div class="text-md-center">

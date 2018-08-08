@@ -35,43 +35,13 @@ export default {
       projects: [
         {
           id: 1,
-          title: 'My City Mapper',
-          src: 'logo.png',
-          flex: 6,
+          title: 'Fouille de données interactive',
+          src: 'machine_learning.png',
+          flex: 12,
           content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
           sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
           Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`,
           link: 'https://forge.univ-lyon1.fr/p1419771'
-        },
-        {
-          id: 2,
-          title: 'Film Tracker',
-          src: 'logo.png',
-          flex: 6,
-          content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`,
-          link: 'https://github.com/nxhuy-github/film-tracker'
-        },
-        {
-          id: 3,
-          title: 'My Portfolio',
-          src: 'logo.png',
-          flex: 6,
-          content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`,
-          link: 'https://github.com/nxhuy-github/portfolio'
-        },
-        {
-          id: 4,
-          title: 'Practice D3JS',
-          src: 'd3js.png',
-          flex: 6,
-          content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`,
-          link: 'https://github.com/nxhuy-github/Practice_D3JS'
         }
       ]
     }
