@@ -30,9 +30,9 @@ export default {
       drawer: true,
       items: [
         { title: `Home`, icon: 'home', route: 'LandingPage' },
-        { title: 'Resume', icon: 'place', route: 'Resume' },
-        { title: 'About', icon: 'note_add', route: 'About' },
-        { title: 'Contact', icon: 'face', route: 'Contact' }
+        { title: 'Resume', icon: 'file_copy', route: 'Resume' },
+        { title: 'About', icon: 'face', route: 'About' },
+        { title: 'Contact', icon: 'contact_support', route: 'Contact' }
       ],
       clipped: false
     }

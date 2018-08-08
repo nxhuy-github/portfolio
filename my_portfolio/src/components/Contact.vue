@@ -1,7 +1,9 @@
 <template>
-  <div>
-    <h1>Contact Page</h1>
-  </div>
+  <v-layout row wrap>
+    <v-flex  xs12 sm6 offset-sm3>
+      <h1>Contact Page</h1>
+    </v-flex>
+  </v-layout>
 </template>
 
 <script>
