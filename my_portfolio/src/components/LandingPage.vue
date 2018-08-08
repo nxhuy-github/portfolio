@@ -6,7 +6,7 @@
       </v-avatar>
     </v-flex>
     <v-flex  xs12 sm6 offset-sm3>
-      <v-card color="cyan darken-2" class="white--text" width=100%>
+      <v-card color="cyan darken-2" class="white--text" flat>
         <v-card-text id="banner" >
           <div class="text-md-center">
             <div id="headline">DATA SCIENTIST</div>

@@ -4,6 +4,7 @@ import LandingPage from '@/components/LandingPage'
 import Contact from '@/components/Contact'
 import Resume from '@/components/Resume'
 import About from '@/components/About'
+import Projects from '@/components/Projects'
 
 Vue.use(Router)
 
@@ -28,6 +29,11 @@ export default new Router({
       path: '/about',
       name: 'About',
       component: About
+    },
+    {
+      path: '/projects',
+      name: 'Projects',
+      component: Projects
     }
   ]
 })
