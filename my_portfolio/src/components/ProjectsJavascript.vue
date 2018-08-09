@@ -46,7 +46,7 @@ export default {
         {
           id: 2,
           title: 'Film Tracker',
-          src: 'logo.png',
+          src: 'nodejs.png',
           flex: 6,
           content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
           sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 

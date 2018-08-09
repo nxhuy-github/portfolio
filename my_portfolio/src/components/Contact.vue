@@ -65,9 +65,9 @@ export default {
 
 <style>
 i {
-  color: black;
+  color: white;
   font-size: 2em;
-  padding: 8px
+  padding: 8px;
 }
 
 div {
