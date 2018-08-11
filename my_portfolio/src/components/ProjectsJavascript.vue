@@ -38,10 +38,10 @@ export default {
           title: 'My City Mapper',
           src: 'logo.png',
           flex: 6,
-          content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`,
-          link: 'https://forge.univ-lyon1.fr/p1419771'
+          content: `Using Vue.js and the navitia.io API to buil a mobility app (like Citymapper)
+          This application will be a Single Page Application (SPA), developed mainly client side, 
+          with a very light server. Client and server will be encoded in JavaScript.`,
+          link: 'https://github.com/nxhuy-github/MyCityMapper2'
         },
         {
           id: 2,
